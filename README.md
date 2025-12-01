@@ -145,7 +145,7 @@ Postman Collection
 Included file:
 Movies_Insights_Postman_Collection.json
 
-Contains requests for:
+# Contains requests for:
 Base endpoint
 Pagination tests
 Sorting tests
@@ -154,15 +154,15 @@ Summary endpoint
 Invalid input tests
 Missing API key tests
 
-Tech Stack
-Backend:
+ # Tech Stack
+# Backend:
 Python
 Django
 Django REST Framework
 Requests
 Dotenv
 
-Frontend:
+# Frontend:
 React
 Vite
 Recharts
