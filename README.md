@@ -13,7 +13,7 @@ Implements two required endpoints:
 A. Paginated list endpoint
 B. Summary/analytics endpoint
 
-Supports:
+ # Supports:
 -Filtering (genre/year/language/min rating)
 -Sorting
 -Pagination
@@ -27,7 +27,7 @@ Paginated movies table
 Interactive filters & sort controls
 Overview statistics
 
-Three required charts:
+# Three required charts:
 
 Bar chart – Avg rating per genre
 Line chart – Rating distribution
@@ -35,7 +35,7 @@ Bar chart – Top-rated movies
 
 Clean UI with loading states & error messages
 
-Backend Documentation (Django)
+# Backend Documentation (Django)
 Installation:
 cd backend
 python -m venv venv
@@ -45,7 +45,7 @@ python manage.py migrate
 python manage.py runserver
 
 
-Backend runs on:
+# Backend runs on:
 
 http://localhost:8000/api/
 
@@ -68,7 +68,7 @@ Overall average rating
 Per-genre statistics
 Top-rated movies (normalized list)
 
-Filtering & Sorting
+# Filtering & Sorting
 
 Supported filters:
 
@@ -87,7 +87,7 @@ title_asc
 year_desc
 year_asc
 
-Error Handling
+# Error Handling
 The API returns proper JSON error responses for:
 Missing or invalid TMDB API key
 Invalid page/limit
@@ -101,14 +101,14 @@ Example error:
   "detail": "Invalid 'page' parameter"
 }
 
-Frontend Documentation (React Dashboard)
+# Frontend Documentation (React Dashboard)
 Installation
 cd frontend
 npm install
 npm run dev
 
 
-Frontend runs on:
+# Frontend runs on:
 
 http://localhost:5173/
 
@@ -130,7 +130,7 @@ Genre
 Summary statistic cards
 Highlight colors based on values
 
-Charts
+ # Charts
 The dashboard includes all three charts required in the assignment PDF:
 1. Bar Chart – Avg Rating by Genre
 Shows average ratings for genres across the current dataset.
