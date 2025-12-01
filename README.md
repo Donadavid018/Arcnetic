@@ -14,12 +14,12 @@ A. Paginated list endpoint
 B. Summary/analytics endpoint
 
 Supports:
-Filtering (genre/year/language/min rating)
-Sorting
-Pagination
-Aggregated stats
-Error responses for invalid input
-Caching (via lru_cache)
+-Filtering (genre/year/language/min rating)
+-Sorting
+-Pagination
+-Aggregated stats
+-Error responses for invalid input
+-Caching (via lru_cache)
 
 ✔ Frontend (React)
 Modern, responsive dashboard
